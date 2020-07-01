@@ -1,0 +1,16 @@
+[package]
+name = "vade-example-plugin"
+version = "0.1.0"
+authors = ["evan GmbH"]
+edition = "2018"
+license-file = "LICENSE"
+description = "vade example project"
+homepage = "https://github.com/evannetwork/vade-evan-example"
+repository = "https://github.com/evannetwork/vade-evan-example"
+readme = "README.md"
+
+
+[dependencies]
+async-trait = "0.1.31"
+vade = "0.0.7"
+tokio = { version = "0.2.21", features = ["macros", "rt-threaded"] }
